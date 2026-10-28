@@ -6,7 +6,7 @@ import com.yuchan.practice.dto.BoardResponseDto;
 import com.yuchan.practice.dto.BoardSaveRequestDto;
 import com.yuchan.practice.dto.BoardUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
-import jakarta.transaction.Transactional;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.stereotype.Service;
 
 @RequiredArgsConstructor
