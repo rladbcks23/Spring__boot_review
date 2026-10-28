@@ -34,7 +34,7 @@ public class BoardService {
     // 3. 글 조회
     public BoardResponseDto findById(Long id){
         Board entity = boardRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("해당 게시글이 없습니더. id = " + id));
+                .orElseThrow(() -> new IllegalArgumentException("해당 게시글이 없습니다. id = " + id));
         return new BoardResponseDto(entity);
     }
 }
