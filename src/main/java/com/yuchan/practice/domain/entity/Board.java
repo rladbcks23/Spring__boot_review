@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 public class Board {
+    // Entity 클래스에서는 절대 Setter를 만들지 않습니다. 대신 update 같이 명확한 목적을 가진 메소드를 추가하여 데이터를 변경합니다.
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
