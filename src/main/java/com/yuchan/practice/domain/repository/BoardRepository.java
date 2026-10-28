@@ -1,4 +1,4 @@
-package com.yuchan.practice.repository;
+package com.yuchan.practice.domain.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import com.yuchan.practice.domain.entity.Board;
